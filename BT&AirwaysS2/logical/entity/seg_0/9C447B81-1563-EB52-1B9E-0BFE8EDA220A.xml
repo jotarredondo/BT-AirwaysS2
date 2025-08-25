@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C447B81-1563-EB52-1B9E-0BFE8EDA220A" name="AVION">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 22:57:36 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="FF2BBFAD-F5B0-5E03-4067-CB67926D32D1">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:07:04 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="395AC918-FF2E-B0CC-7DA2-54B415920F58">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:07:42 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="E55F9DC8-8992-6BDD-DBCC-F129F66412D5">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:08:04 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidad" id="AECB5ED0-33FD-425E-FB53-ADFD352138E5">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:08:20 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2B37B242-D997-0A73-0789-75C1FC87FF03">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:44:40 UTC</createdTime>
+<generatorID>3FC11BD3-EB7C-2BDD-0995-533CA476F480</generatorID>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<referedAttribute>480E54E4-4999-6B4F-21ED-9A0C4BF6CD3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEF8B161-4861-2740-BB80-FC00A8218EE9" name="AVION PK">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:07:25 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF2BBFAD-F5B0-5E03-4067-CB67926D32D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

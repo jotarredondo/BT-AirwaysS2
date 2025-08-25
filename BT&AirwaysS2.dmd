@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BT&amp;AirwaysS2" id="EABAFF8C-C866-ADD2-54A6-98B0FB885CF2" version="3.5">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-17 22:39:49 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EABAFF8C-C866-ADD2-54A6-98B0FB885CF2</designId>
+</OSDM_Design>

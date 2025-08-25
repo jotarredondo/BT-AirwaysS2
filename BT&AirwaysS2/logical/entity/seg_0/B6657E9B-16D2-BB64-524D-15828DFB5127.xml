@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6657E9B-16D2-BB64-524D-15828DFB5127" name="LINEA_AEREA">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:01:48 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="480E54E4-4999-6B4F-21ED-9A0C4BF6CD3B">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:27:59 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_avion" id="4D5FB114-143B-9A98-5B25-C4A6B041652A">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:48:46 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_avion" id="959611FE-4FBF-9C28-057A-57669D55DC67">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:50:51 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="E3D1C1BC-5C8A-61D4-3653-57FA44BB7F4D">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:49:49 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_empleado" id="113F33DC-E311-BC8D-F8F7-0AF43549FDE1">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:51:21 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1241129E-871E-1379-DD73-EB9FF84644DA" name="LINEA_AEREA PK">
+<createdBy>jotar</createdBy>
+<createdTime>2025-08-24 23:28:38 UTC</createdTime>
+<ownerDesignName>BT&amp;AirwaysS2</ownerDesignName>
+<engineerTo>
+<item key="26B81959-671C-B426-0BF0-31F413A70603" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>480E54E4-4999-6B4F-21ED-9A0C4BF6CD3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
